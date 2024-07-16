@@ -1,12 +1,50 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
   <head>
     <title>Redirecting...</title>
-    <link rel="canonical" href="https://theorangeone.net" />
     <meta charset="utf-8" />
     <meta http-equiv="refresh" content="0;url=./Palmeri_ICHEP_Poster_MTD.pdf" />
   </head>
   <body>
     <p>Redirecting...</p>
+  </body>
+</html>
+ -->
+
+<!-- Path: Palmeri_ICHEP_Poster_MTD.pdf -->
+<html>
+  <head>
+    <title>ICHEP 2024</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      #pdf-container {
+        overflow: auto;
+        width: 100%;
+        height: 100vh;
+      }
+      canvas {
+        width: 100%;
+        height: auto;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+    </style>
+
+    <script type="module" src="./pdfjs-dist/build/pdf.mjs"></script>
+    <script type="module" src="./main.js" defer></script>
+
+  </head>
+
+  <body>
+    <!-- render pdf file -->
+    <div id="pdf-container"></div>
+
   </body>
 </html>
